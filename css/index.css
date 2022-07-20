@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.top-banner {
+    background-color: #1E1E1E;
+    color: whitesmoke;
+    font-size: large;
+    display: flex;
+    border-radius: 20px;
+}
+
+.banner-text {
+
+    padding: 40px 10px 20px 30px;
+}
+
+.banner-image {
+    padding-right: 10px;
+}
+
+.all-manu {
+    display: flex;
+}
+
+.button {
+    background-color: orangered;
+    border-radius: 5px;
+    width: 110px;
+    height: 32px;
+
+}
+
+.button:hover {
+    background-color: blue;
+    color: aliceblue;
+    width: 120px;
+    height: 42px;
+}
+
+.manu-buttons {
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    background-color: black;
+    width: 160px;
+    height: 160px;
+    display: center;
+}
+
+.manu-button1 {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+
+    background-color: rgb(247, 243, 242);
+    border: none;
+    border-radius: 5px;
+    color: rgb(13, 13, 13);
+    width: 130px;
+    height: 32px;
+}
+
+.manu-button2 {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    width: 130px;
+    height: 32px;
+}
+
+.manu-button3 {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 130px;
+    height: 32px;
+}
+
+.blog {
+    width: 400px;
+    height: 390px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    border: 1px solid rgb(21, 9, 33);
+    border-bottom: none;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 20px;
+    font-size: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-twitter-square {
+    color: white;
+}
+
+.link-icon {
+    padding-top: 20px;
+}
